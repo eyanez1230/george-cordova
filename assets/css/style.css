@@ -80,7 +80,7 @@ h3.green {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 70px;
+  height: 85px;
   transition: all 0.5s;
   z-index: 997;
   background: #000;
@@ -101,11 +101,11 @@ h3.green {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 55px;
+  max-height: 70px;
 }
 @media (max-width: 992px) {
   #header {
-    height: 60px;
+    height: 75px;
   }
 }
 
