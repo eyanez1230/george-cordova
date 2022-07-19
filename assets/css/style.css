@@ -1331,3 +1331,39 @@ section {
   font-weight: 600;
   display: inline-block;
 }
+
+
+
+#hero .header-newsletter {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 4px 0 0 4px;
+}
+#hero .header-newsletter input[type=email] {
+  border: 0;
+  padding: 4px;
+  width: calc(100% - 40px);
+}
+#hero .header-newsletter button.submit {
+  position: absolute;
+  top: 0;
+  right: -4px;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #0a5c67;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 0 4px 4px 0;
+}
+#hero .header-newsletter button.submit:hover {
+  background: #158c9c;
+}
+#hero .copyright {
+  text-align: center;
+  padding-top: 30px;
+}
